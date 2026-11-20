@@ -1,0 +1,46 @@
+# WSQ assessment materials (confidential: never pushed)
+/assessment/
+
+# Facilitator Guide and Assessment Plan carry assessment instructions, answer keys and the rubric:
+# trainer-only (Google Drive and TMS), never GitHub
+**/FG_*
+**/FG-*
+**/Assessment_Plan_*
+**/AP-*
+
+# Toolchain: never publish .claude/ wholesale (skills, hooks, push scripts, key files).
+# Only this course's build sources are public; the assessment builders and fgap/ stay private.
+/.claude/*
+!/.claude/skills/
+/.claude/skills/*
+!/.claude/skills/courseware-build/
+/.claude/skills/courseware-build/*
+!/.claude/skills/courseware-build/build/
+!/.claude/skills/courseware-build/assets/
+.claude/skills/courseware-build/build/build_assessment*.py
+.claude/skills/courseware-build/fgap/
+
+# Brochure build data and Assessment Summary Records (Drive only)
+courseware/brochure/
+**/Assessment Summary Record*
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+**/lms_tms_api_key
+
+# Superseded versions, renders and tooling
+courseware/archive/
+.claude/skills/courseware-build/build/_render/
+__pycache__/
+*.pyc
+.DS_Store
+.playwright-mcp/
+~$*
+**/~$*
+courseware/.~lock.*
+*.zip
