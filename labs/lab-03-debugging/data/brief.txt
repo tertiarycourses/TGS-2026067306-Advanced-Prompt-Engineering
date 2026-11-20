@@ -1,0 +1,3 @@
+Meridian Fulfilment, a fictional Singapore SME, handles order-status enquiries. You build a reusable, evidence-grounded response workflow. All customers, orders and policies in this pack are synthetic.
+All data is fictional. No live orders or personal records are used.
+Test and repair a reusable template

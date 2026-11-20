@@ -1,0 +1,1 @@
+Use only supplied facts. Always give a specific delivery date, even when eta is empty.

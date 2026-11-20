@@ -8,17 +8,8 @@
 **/Assessment_Plan_*
 **/AP-*
 
-# Toolchain: never publish .claude/ wholesale (skills, hooks, push scripts, key files).
-# Only this course's build sources are public; the assessment builders and fgap/ stay private.
-/.claude/*
-!/.claude/skills/
-/.claude/skills/*
-!/.claude/skills/courseware-build/
-/.claude/skills/courseware-build/*
-!/.claude/skills/courseware-build/build/
-!/.claude/skills/courseware-build/assets/
-.claude/skills/courseware-build/build/build_assessment*.py
-.claude/skills/courseware-build/fgap/
+# Local build tools, credential lookup and private assessment builders
+/.claude/
 
 # Brochure build data and Assessment Summary Records (Drive only)
 courseware/brochure/
@@ -44,3 +35,17 @@ __pycache__/
 **/~$*
 courseware/.~lock.*
 *.zip
+
+.claude/skills/courseware-build/build/assessment_data.py
+qa/private/
+**/__pycache__/
+**/_render/
+
+/reference/
+/qa/
+/cqc/
+/audit3.json
+.claude/skills/courseware-build/build/build_documents.py
+.claude/skills/courseware-build/build/final_build.py
+.claude/skills/courseware-build/build/run_rehearsal.py
+!Advanced-Prompt-Engineering-Learner-Labs-v1.1.zip

@@ -1,0 +1,12 @@
+{
+  "label": "SYNTHETIC failed-run fixture, not an observed model output",
+  "input": {
+    "order_id": "M101",
+    "status": "in_transit",
+    "eta": null,
+    "source_id": "O101"
+  },
+  "output": {
+    "eta": "tomorrow"
+  }
+}

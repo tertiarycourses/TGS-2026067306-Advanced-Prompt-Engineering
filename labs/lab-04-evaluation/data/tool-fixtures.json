@@ -1,0 +1,15 @@
+{
+  "label": "SIMULATED tool results; no live call",
+  "success": {
+    "order_id": "M102",
+    "status": "delayed",
+    "eta": "2026-11-23",
+    "source_id": "O102",
+    "source_ids": [
+      "O102"
+    ]
+  },
+  "timeout": {
+    "error": "timeout"
+  }
+}

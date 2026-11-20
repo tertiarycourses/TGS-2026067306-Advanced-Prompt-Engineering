@@ -1,0 +1,14 @@
+{
+  "order_id": "M104",
+  "records": [
+    {
+      "source_id": "O104A",
+      "status": "delivered"
+    },
+    {
+      "source_id": "O104B",
+      "status": "in_transit"
+    }
+  ],
+  "expected": "flag conflict; do not choose a status without review"
+}

@@ -1,0 +1,8 @@
+Date / tool / model label:
+Prompt version / case ID:
+Expected behaviour before run:
+Raw output path:
+Criteria and observed outcomes:
+One changed element and reason:
+Rerun and regression outcomes:
+Decision / limitations:
